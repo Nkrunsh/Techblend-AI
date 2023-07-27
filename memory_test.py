@@ -1,3 +1,17 @@
+"""
+El programa plantea la implementacion de un chatbot que utiliza la biblioteca LangChain 
+para crear una conversación entre un humano y una IA. La IA es capaz de generar 
+respuestas en base a la entrada del usuario y puede almacenar una historia del chat. 
+Además, el chatbot tiene la capacidad de recibir un comando especial ("++") 
+para agregar un mensaje de recomendación al historial del chat. El programa 
+se ejecuta en un bucle hasta que el usuario ingrese el comando de salida ("--") y 
+luego imprime el historial del chat. También se plantea una tarea adicional de 
+implementar una forma para que la IA pueda obtener una recomendación de teléfono 
+basada en la información obtenida del usuario.
+
+"""
+
+
 import config
 import json
 from ChatbotConversationChain import ChatBotChain

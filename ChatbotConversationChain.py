@@ -1,4 +1,10 @@
-"""Chain that carries on a conversation and calls an LLM."""
+"""
+Este código define una clase llamada "ChatBotChain" que es una cadena 
+que lleva a cabo una conversación y llama a un modelo de lenguaje (LLM). 
+La clase extiende la clase "LLMChain" y tiene una memoria de almacenamiento
+y una plantilla de conversación predeterminadas. La clase también tiene métodos 
+para obtener el historial de conversación de la memoria.
+"""
 from typing import Dict, List
 
 from pydantic import Extra, Field, root_validator

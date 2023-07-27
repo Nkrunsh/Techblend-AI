@@ -1,3 +1,10 @@
+"""
+El código seleccionado es una implementación de una clase llamada 
+HistoryExtractor que se utiliza para extraer información relevante 
+de un historial de chat de asistencia en ventas entre un usuario y 
+un chatbot alimentado por un modelo de lenguaje de OpenAI.
+"""
+
 from langchain.llms.base import BaseLLM
 from langchain.schema import HumanMessage
 from langchain import PromptTemplate 
